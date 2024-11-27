@@ -1,0 +1,57 @@
+
+
+body {
+        
+    margin: 0;
+    background-color: rgb(150, 150, 150);
+}
+
+.header {
+    text-align: center;
+    height: 120px;
+}
+
+#palkki {
+    background-color: rgb(54, 50, 50);
+    width: 100%;
+    height: 40px;
+}
+
+.column {
+    margin: 17px;
+    float: left;
+    width: 50%;
+    font-stretch: extra-condensed;
+}
+
+#left {
+    width: 150px;
+  
+    border-radius: 14px;
+}
+
+#middle {
+    border: 1px;
+    text-align: center;
+    align-self: center;
+    
+}
+
+.text {
+   
+}
+
+#pics {
+    margin: 18px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#horn {
+-webkit-transform: scaleX(-1);
+transform: scaleX(-1);
+}
